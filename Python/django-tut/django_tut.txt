@@ -1,0 +1,642 @@
+Last login: Wed Feb 26 12:48:40 on ttys001
+ ______________________________________________________________________________
+|                                                                              |
+|                       ___       ________________       ___                   |
+|                      /  /      /  /  _______/  /      /  /                   |
+|                     /  / ___  /  /  /___   /  / ___  /  /                    |
+|                    /  / /  / /  /  ____/  /  / /  / /  /                     |
+|                   /  /_/  /_/  /  /      /  /_/  /_/  /                      |
+|                  /____________/__/      /____________/                       |
+|                                                                              |
+|______________________________________________________________________________|
+
+[20:07]wgf2104@dyn-160-39-132-234:[~]$ code
+[20:07]wgf2104@dyn-160-39-132-234:[code]$ ll
+total 128
+drwxr-xr-x   67 wgf2104  staff   2278 Feb 25 03:12 ./
+drwx------+  14 wgf2104  staff    476 Feb 20 19:36 ../
+-rw-r--r--@   1 wgf2104  staff  24580 Feb 23 20:00 .DS_Store
+drwxr-xr-x    6 wgf2104  staff    204 Nov  5 15:32 ADI_Examples/
+drwx------   11 wgf2104  staff    374 Dec 11 00:21 AI/
+drwx------   25 wgf2104  staff    850 Feb  5 18:41 CAD/
+drwxr-xr-x@   7 wgf2104  staff    238 Jul 11  2013 ImageSnap-v0.2.5/
+drwx------   10 wgf2104  staff    340 Sep 11 11:46 JavaGrapher/
+drwxr-xr-x    4 wgf2104  staff    136 Apr  1  2013 JavaScript_MySQL_PHP/
+drwxr-xr-x   47 wgf2104  staff   1598 Apr  1  2013 Matlab_Cryptography_Functions/
+drwx------   11 wgf2104  staff    374 Dec  7 19:09 PLT/
+drwx------    9 wgf2104  staff    306 Aug 24  2013 SevenBlocks/
+drwx------    4 wgf2104  staff    136 Dec  4 16:51 SorE/
+drwx------   10 wgf2104  staff    340 Nov 22 15:58 UI/
+drwx------    7 wgf2104  staff    238 Nov 24 19:08 WHET/
+drwxr-xr-x  428 wgf2104  staff  14552 Jan 14 02:32 _gitshots/
+drwx------    9 wgf2104  staff    306 Oct 23 16:49 ansiweather/
+drwxr-xr-x    3 wgf2104  staff    102 Aug 14  2013 automator/
+drwxr-xr-x   10 wgf2104  staff    340 Sep 22 00:17 blinky/
+drwx------   21 wgf2104  staff    714 Feb 22 14:24 blog/
+drwxr-xr-x    7 wgf2104  staff    238 Aug 22  2013 breathalyzer/
+drwxr-xr-x@  13 wgf2104  staff    442 May  8  2013 cheaters/
+drwxr-xr-x   10 wgf2104  staff    340 Jan 27 14:09 chrome/
+drwx------   12 wgf2104  staff    408 Jan 12 01:15 clk/
+drwx------    8 wgf2104  staff    272 Sep 19 12:00 cocoa-tlassemble/
+drwxr-xr-x    4 wgf2104  staff    136 Mar 30  2013 crave/
+drwx------   10 wgf2104  staff    340 Sep  8 10:46 crypto/
+drwx------   16 wgf2104  staff    544 Nov 15 22:27 cs3157/
+drwxr-xr-x    5 wgf2104  staff    170 Jul 16  2013 cs4119/
+drwx------   17 wgf2104  staff    578 Feb 22 12:23 data.adicu.com/
+drwx------    9 wgf2104  staff    306 Feb  3 21:40 devfest/
+drwx------    5 wgf2104  staff    170 Feb  2 23:51 fizzbuzz/
+drwx------   15 wgf2104  staff    510 Nov 25 02:30 forever_not/
+drwxr-xr-x    9 wgf2104  staff    306 Nov 18 00:43 foster_interstate_media/
+drwxr-xr-x   14 wgf2104  staff    476 Nov 29 11:05 fwl-studios/
+drwx------   21 wgf2104  staff    714 Feb 25 19:35 gavel/
+-rw-r--r--@   1 wgf2104  staff  35757 Oct  7 12:08 gitignore-master.zip
+drwxr-xr-x    5 wgf2104  staff    170 Sep 11 21:42 graph-monitor/
+drwx------    9 wgf2104  staff    306 Oct  6 16:49 homework/
+drwx------   14 wgf2104  staff    476 Oct 13 16:11 lego-mosaic/
+drwx------    5 wgf2104  staff    170 Feb 24 16:43 linger/
+drwx------   17 wgf2104  staff    578 Jan  1 13:55 markaround/
+drwx------   22 wgf2104  staff    748 Feb 25 03:12 meatspace-chat/
+drwx------    8 wgf2104  staff    272 Oct 13 15:53 mini-amp/
+drwx------   11 wgf2104  staff    374 Jan 11 11:47 mytinerary/
+drwx------   10 wgf2104  staff    340 Jan 31 16:56 notes/
+drwx------    8 wgf2104  staff    272 Feb 21 18:07 os/
+drwxr-xr-x    5 wgf2104  staff    170 Feb  2 16:59 pamelafalk/
+drwx------   14 wgf2104  staff    476 Jan 20 10:54 pente/
+drwx------   11 wgf2104  staff    374 Jan 15 14:44 personal-api/
+drwx------   13 wgf2104  staff    442 Sep 11 12:45 pos_gui/
+drwx------   14 wgf2104  staff    476 Jan 22 20:54 practice/
+drwxr-xr-x    6 wgf2104  staff    204 Jun 27  2013 print-a-tweet/
+drwx------   20 wgf2104  staff    680 Apr  3  2013 railsblog/
+drwxr-xr-x@  15 wgf2104  staff    510 Dec 29 17:03 rpi_homepage/
+drwxr-xr-x   16 wgf2104  staff    544 Feb 12 00:51 scripts/
+drwx------    6 wgf2104  staff    204 Aug 14  2013 sfw/
+drwx------   10 wgf2104  staff    340 Sep 11 12:45 short-hacks/
+drwx------   14 wgf2104  staff    476 Feb 14 01:06 sml2198.github.io/
+drwx------   12 wgf2104  staff    408 Dec 10 11:35 squareday/
+drwx------    4 wgf2104  staff    136 Apr  8  2013 track-a-tag/
+drwx------    8 wgf2104  staff    272 Sep 18 16:39 vizualizations/
+drwx------   19 wgf2104  staff    646 Feb 21 16:23 wfalkwallace.github.io/
+drwx------   12 wgf2104  staff    408 Sep  6 10:55 whereami/
+drwx------   10 wgf2104  staff    340 Feb  1 23:27 whip_cc/
+drwx------   20 wgf2104  staff    680 Feb 18 10:40 wingit/
+drwxr-xr-x    7 wgf2104  staff    238 Oct 14 16:54 woodwork/
+[20:07]wgf2104@dyn-160-39-132-234:[code]$ cd practice/
+[20:07]wgf2104@dyn-160-39-132-234:[practice](master)$ ll
+total 64
+drwx------  14 wgf2104  staff   476 Jan 22 20:54 ./
+drwxr-xr-x  67 wgf2104  staff  2278 Feb 25 03:12 ../
+-rw-r--r--@  1 wgf2104  staff  6148 Nov  5 18:38 .DS_Store
+drwx------  11 wgf2104  staff   374 Feb 26 20:07 .git/
+-rw-------   1 wgf2104  staff  4504 Jan 22 20:54 CONTRIBUTORS.geojson
+-rw-------   1 wgf2104  staff  4275 Jan 22 20:54 CONTRIBUTORS.geojson~
+drwx------   3 wgf2104  staff   102 Oct  8 00:37 D3/
+-rw-------   1 wgf2104  staff  1087 Sep 19 15:54 LICENSE
+drwx------   5 wgf2104  staff   170 Sep 29 14:23 Lisp/
+drwx------   6 wgf2104  staff   204 Nov  5 18:34 OCaml/
+drwx------   5 wgf2104  staff   170 Jan 26 18:50 Python/
+-rw-------   1 wgf2104  staff    18 Sep 19 15:54 README.md
+drwx------   5 wgf2104  staff   170 Nov  5 18:41 Rails/
+drwx------   3 wgf2104  staff   102 Nov  5 18:34 Ruby/
+[20:07]wgf2104@dyn-160-39-132-234:[practice](master)$ ll
+total 64
+drwx------  14 wgf2104  staff   476 Jan 22 20:54 ./
+drwxr-xr-x  67 wgf2104  staff  2278 Feb 25 03:12 ../
+-rw-r--r--@  1 wgf2104  staff  6148 Nov  5 18:38 .DS_Store
+drwx------  11 wgf2104  staff   374 Feb 26 20:07 .git/
+-rw-------   1 wgf2104  staff  4504 Jan 22 20:54 CONTRIBUTORS.geojson
+-rw-------   1 wgf2104  staff  4275 Jan 22 20:54 CONTRIBUTORS.geojson~
+drwx------   3 wgf2104  staff   102 Oct  8 00:37 D3/
+-rw-------   1 wgf2104  staff  1087 Sep 19 15:54 LICENSE
+drwx------   5 wgf2104  staff   170 Sep 29 14:23 Lisp/
+drwx------   6 wgf2104  staff   204 Nov  5 18:34 OCaml/
+drwx------   5 wgf2104  staff   170 Jan 26 18:50 Python/
+-rw-------   1 wgf2104  staff    18 Sep 19 15:54 README.md
+drwx------   5 wgf2104  staff   170 Nov  5 18:41 Rails/
+drwx------   3 wgf2104  staff   102 Nov  5 18:34 Ruby/
+[20:07]wgf2104@dyn-160-39-132-234:[practice](master)$ st
+# On branch master
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	Python/helloflask/
+nothing added to commit but untracked files present (use "git add" to track)
+[20:07]wgf2104@dyn-160-39-132-234:[practice](master)$ 
+[20:08]wgf2104@dyn-160-39-132-234:[practice](master)$ 
+[20:08]wgf2104@dyn-160-39-132-234:[practice](master)$ mkdir django-tut
+[20:08]wgf2104@dyn-160-39-132-234:[practice](master)$ ll
+total 64
+drwx------  15 wgf2104  staff   510 Feb 26 20:08 ./
+drwxr-xr-x  67 wgf2104  staff  2278 Feb 25 03:12 ../
+-rw-r--r--@  1 wgf2104  staff  6148 Nov  5 18:38 .DS_Store
+drwx------  11 wgf2104  staff   374 Feb 26 20:08 .git/
+-rw-------   1 wgf2104  staff  4504 Jan 22 20:54 CONTRIBUTORS.geojson
+-rw-------   1 wgf2104  staff  4275 Jan 22 20:54 CONTRIBUTORS.geojson~
+drwx------   3 wgf2104  staff   102 Oct  8 00:37 D3/
+-rw-------   1 wgf2104  staff  1087 Sep 19 15:54 LICENSE
+drwx------   5 wgf2104  staff   170 Sep 29 14:23 Lisp/
+drwx------   6 wgf2104  staff   204 Nov  5 18:34 OCaml/
+drwx------   5 wgf2104  staff   170 Jan 26 18:50 Python/
+-rw-------   1 wgf2104  staff    18 Sep 19 15:54 README.md
+drwx------   5 wgf2104  staff   170 Nov  5 18:41 Rails/
+drwx------   3 wgf2104  staff   102 Nov  5 18:34 Ruby/
+drwx------   2 wgf2104  staff    68 Feb 26 20:08 django-tut/
+[20:08]wgf2104@dyn-160-39-132-234:[practice](master)$ mv django-tut/ Python/
+[20:08]wgf2104@dyn-160-39-132-234:[practice](master)$ cd Python/
+[20:08]wgf2104@dyn-160-39-132-234:[Python](master)$ ll
+total 16
+drwx------   6 wgf2104  staff  204 Feb 26 20:08 ./
+drwx------  14 wgf2104  staff  476 Feb 26 20:08 ../
+-rwxr-xr-x@  1 wgf2104  staff  315 Nov  5 11:23 .gitignore*
+drwx------   2 wgf2104  staff   68 Feb 26 20:08 django-tut/
+-rwx--x--x   1 wgf2104  staff  144 Jan 22 15:28 hello.py*
+drwx------   3 wgf2104  staff  102 Jan 26 18:56 helloflask/
+[20:08]wgf2104@dyn-160-39-132-234:[Python](master)$ mv he
+hello.py    helloflask/ 
+[20:08]wgf2104@dyn-160-39-132-234:[Python](master)$ mv hello.py hell
+hello.py    helloflask/ 
+[20:08]wgf2104@dyn-160-39-132-234:[Python](master)$ mv hello.py helloflask/
+[20:08]wgf2104@dyn-160-39-132-234:[Python](master)$ ll
+total 8
+drwx------   5 wgf2104  staff  170 Feb 26 20:08 ./
+drwx------  14 wgf2104  staff  476 Feb 26 20:08 ../
+-rwxr-xr-x@  1 wgf2104  staff  315 Nov  5 11:23 .gitignore*
+drwx------   2 wgf2104  staff   68 Feb 26 20:08 django-tut/
+drwx------   4 wgf2104  staff  136 Feb 26 20:08 helloflask/
+[20:08]wgf2104@dyn-160-39-132-234:[Python](master)$ cd django-tut/
+[20:08]wgf2104@dyn-160-39-132-234:[django-tut](master)$ ll
+total 0
+drwx------  2 wgf2104  staff   68 Feb 26 20:08 ./
+drwx------  5 wgf2104  staff  170 Feb 26 20:08 ../
+[20:08]wgf2104@dyn-160-39-132-234:[django-tut](master)$ pip install django
+Downloading/unpacking django
+  Downloading Django-1.6.2.tar.gz (6.6MB): 6.6MB downloaded
+  Running setup.py egg_info for package django
+    
+    warning: no previously-included files matching '__pycache__' found under directory '*'
+    warning: no previously-included files matching '*.py[co]' found under directory '*'
+Installing collected packages: django
+  Running setup.py install for django
+    changing mode of build/scripts-2.7/django-admin.py from 600 to 755
+    
+    warning: no previously-included files matching '__pycache__' found under directory '*'
+    warning: no previously-included files matching '*.py[co]' found under directory '*'
+    changing mode of /usr/local/bin/django-admin.py to 755
+Successfully installed django
+Cleaning up...
+[20:09]wgf2104@dyn-160-39-132-234:[django-tut](master)$ 
+[20:09]wgf2104@dyn-160-39-132-234:[django-tut](master)$ 
+[20:09]wgf2104@dyn-160-39-132-234:[django-tut](master)$ django
+-bash: django: command not found
+[20:09]wgf2104@dyn-160-39-132-234:[django-tut](master)$ django-admin.py version
+1.6.2
+[20:20]wgf2104@dyn-160-39-132-234:[django-tut](master)$ django-admin.py startproject myproject
+[20:21]wgf2104@dyn-160-39-132-234:[django-tut](master)$ ll
+total 0
+drwx------  3 wgf2104  staff  102 Feb 26 20:21 ./
+drwx------  5 wgf2104  staff  170 Feb 26 20:08 ../
+drwx------  4 wgf2104  staff  136 Feb 26 20:21 myproject/
+[20:21]wgf2104@dyn-160-39-132-234:[django-tut](master)$ cd myproject/
+[20:21]wgf2104@dyn-160-39-132-234:[myproject](master)$ ll
+total 8
+drwx------  4 wgf2104  staff  136 Feb 26 20:21 ./
+drwx------  3 wgf2104  staff  102 Feb 26 20:21 ../
+-rw-------  1 wgf2104  staff  252 Feb 26 20:21 manage.py
+drwx------  6 wgf2104  staff  204 Feb 26 20:21 myproject/
+[20:21]wgf2104@dyn-160-39-132-234:[myproject](master)$ cd ..
+[20:21]wgf2104@dyn-160-39-132-234:[django-tut](master)$ cd -
+/Users/wgf2104/Documents/code/practice/Python/django-tut/myproject
+[20:21]wgf2104@dyn-160-39-132-234:[myproject](master)$ subl .
+[20:21]wgf2104@dyn-160-39-132-234:[myproject](master)$ python manage.py runserver
+Validating models...
+
+0 errors found
+February 27, 2014 - 01:22:40
+Django version 1.6.2, using settings 'myproject.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+[27/Feb/2014 01:22:53] "GET / HTTP/1.1" 200 1757
+^C[20:23]wgf2104@dyn-160-39-132-234:[myproject](master)$ 
+[20:23]wgf2104@dyn-160-39-132-234:[myproject](master)$ 
+[20:23]wgf2104@dyn-160-39-132-234:[myproject](master)$ 
+[20:25]wgf2104@dyn-160-39-132-234:[myproject](master)$ 
+[20:25]wgf2104@dyn-160-39-132-234:[myproject](master)$ python manage.py runserver
+Validating models...
+
+0 errors found
+February 27, 2014 - 01:28:03
+Django version 1.6.2, using settings 'myproject.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+[27/Feb/2014 01:28:08] "GET / HTTP/1.1" 500 65062
+[27/Feb/2014 01:28:39] "GET / HTTP/1.1" 500 65062
+[27/Feb/2014 01:28:57] "GET / HTTP/1.1" 404 1911
+[27/Feb/2014 01:29:03] "GET /hello HTTP/1.1" 500 88155
+[27/Feb/2014 01:29:37] "GET /hello HTTP/1.1" 301 0
+[27/Feb/2014 01:29:37] "GET /hello/ HTTP/1.1" 200 12
+Unhandled exception in thread started by <function wrapper at 0x10c100c80>
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/2.7.6/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/django/utils/autoreload.py", line 100, in wrapper
+    filename = traceback.extract_tb(tb)[-1][0]
+TypeError: 'NoneType' object is not callable
+Validating models...
+
+0 errors found
+February 27, 2014 - 01:30:24
+Django version 1.6.2, using settings 'myproject.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+[27/Feb/2014 01:30:24] "GET /hello/ HTTP/1.1" 500 65128
+[27/Feb/2014 01:30:42] "GET /hello/ HTTP/1.1" 200 12
+Validating models...
+
+0 errors found
+February 27, 2014 - 01:31:15
+Django version 1.6.2, using settings 'myproject.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+[27/Feb/2014 01:31:42] "GET /hello/ HTTP/1.1" 500 65128
+[27/Feb/2014 01:31:50] "GET /hello/ HTTP/1.1" 500 65128
+[27/Feb/2014 01:31:52] "GET /hello/ HTTP/1.1" 500 65128
+[27/Feb/2014 01:32:06] "GET /hello/ HTTP/1.1" 200 12
+[27/Feb/2014 01:32:14] "GET /home/ HTTP/1.1" 404 2148
+[27/Feb/2014 01:32:24] "GET / HTTP/1.1" 200 11
+Validating models...
+
+0 errors found
+February 27, 2014 - 01:32:55
+Django version 1.6.2, using settings 'myproject.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+[27/Feb/2014 01:35:10] "GET / HTTP/1.1" 200 11
+[27/Feb/2014 01:35:13] "GET /time HTTP/1.1" 301 0
+[27/Feb/2014 01:35:13] "GET /time/ HTTP/1.1" 200 63
+[27/Feb/2014 01:35:14] "GET /time/ HTTP/1.1" 200 63
+[27/Feb/2014 01:35:15] "GET /time/ HTTP/1.1" 200 63
+[27/Feb/2014 01:35:16] "GET /time/ HTTP/1.1" 200 63
+[27/Feb/2014 01:35:17] "GET /time/ HTTP/1.1" 200 63
+[27/Feb/2014 01:35:17] "GET /time/ HTTP/1.1" 200 63
+[27/Feb/2014 01:35:17] "GET /time/ HTTP/1.1" 200 63
+[27/Feb/2014 01:35:18] "GET /time/ HTTP/1.1" 200 63
+[27/Feb/2014 01:35:18] "GET /time/ HTTP/1.1" 200 63
+Validating models...
+
+0 errors found
+February 27, 2014 - 01:36:06
+Django version 1.6.2, using settings 'myproject.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+[27/Feb/2014 01:36:08] "GET /time/ HTTP/1.1" 200 98
+^C[20:36]wgf2104@dyn-160-39-132-234:[myproject](master)$ 
+[20:37]wgf2104@dyn-160-39-132-234:[myproject](master)$ 
+[20:37]wgf2104@dyn-160-39-132-234:[myproject](master)$ ll
+total 8
+drwx------   4 wgf2104  staff  136 Feb 26 20:21 ./
+drwx------   3 wgf2104  staff  102 Feb 26 20:21 ../
+-rw-------   1 wgf2104  staff  252 Feb 26 20:21 manage.py
+drwx------  12 wgf2104  staff  408 Feb 26 20:36 myproject/
+[20:37]wgf2104@dyn-160-39-132-234:[myproject](master)$ mkdir templates
+[20:37]wgf2104@dyn-160-39-132-234:[myproject](master)$ ll
+total 8
+drwx------   5 wgf2104  staff  170 Feb 26 20:37 ./
+drwx------   3 wgf2104  staff  102 Feb 26 20:21 ../
+-rw-------   1 wgf2104  staff  252 Feb 26 20:21 manage.py
+drwx------  12 wgf2104  staff  408 Feb 26 20:36 myproject/
+drwx------   2 wgf2104  staff   68 Feb 26 20:37 templates/
+[20:37]wgf2104@dyn-160-39-132-234:[myproject](master)$ 
+[20:41]wgf2104@dyn-160-39-132-234:[myproject](master)$ 
+[20:41]wgf2104@dyn-160-39-132-234:[myproject](master)$ pwd
+/Users/wgf2104/Documents/code/practice/Python/django-tut/myproject
+[20:46]wgf2104@dyn-160-39-132-234:[myproject](master)$ python manage.py runserver
+Validating models...
+
+0 errors found
+February 27, 2014 - 01:47:30
+Django version 1.6.2, using settings 'myproject.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+[27/Feb/2014 01:47:32] "GET /random/ HTTP/1.1" 500 61939
+Validating models...
+
+0 errors found
+February 27, 2014 - 01:47:47
+Django version 1.6.2, using settings 'myproject.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+[27/Feb/2014 01:50:01] "GET /random/ HTTP/1.1" 200 157
+[27/Feb/2014 01:50:03] "GET /random/ HTTP/1.1" 200 157
+[27/Feb/2014 01:50:04] "GET /random/ HTTP/1.1" 200 157
+[27/Feb/2014 01:50:04] "GET /random/ HTTP/1.1" 200 157
+[27/Feb/2014 01:50:05] "GET /random/ HTTP/1.1" 200 157
+[27/Feb/2014 01:50:05] "GET /random/ HTTP/1.1" 200 157
+[27/Feb/2014 01:50:06] "GET /random/ HTTP/1.1" 200 157
+Validating models...
+
+0 errors found
+February 27, 2014 - 01:53:13
+Django version 1.6.2, using settings 'myproject.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+[27/Feb/2014 01:53:15] "GET /random/ HTTP/1.1" 200 157
+[27/Feb/2014 01:53:15] "GET /random/ HTTP/1.1" 200 157
+[27/Feb/2014 01:53:16] "GET /random/ HTTP/1.1" 200 157
+[27/Feb/2014 01:53:17] "GET /random/ HTTP/1.1" 200 157
+[27/Feb/2014 01:53:17] "GET /random/ HTTP/1.1" 200 157
+[27/Feb/2014 01:53:24] "GET /random/ HTTP/1.1" 200 157
+Validating models...
+
+0 errors found
+February 27, 2014 - 01:53:38
+Django version 1.6.2, using settings 'myproject.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+^C[20:55]wgf2104@dyn-160-39-132-234:[myproject](master)$ python manage.py startapp sampletwitter
+Unknown command: 'startapapp'
+Type 'manage.py help' for usage.
+[20:55]wgf2104@dyn-160-39-132-234:[myproject](master)$ python manage.py startapp sampletwitter
+[20:55]wgf2104@dyn-160-39-132-234:[myproject](master)$ ll
+total 8
+drwx------   6 wgf2104  staff  204 Feb 26 20:55 ./
+drwx------   3 wgf2104  staff  102 Feb 26 20:21 ../
+-rw-------   1 wgf2104  staff  252 Feb 26 20:21 manage.py
+drwx------  12 wgf2104  staff  408 Feb 26 20:53 myproject/
+drwx------   7 wgf2104  staff  238 Feb 26 20:55 sampletwitter/
+drwx------   3 wgf2104  staff  102 Feb 26 20:39 templates/
+[20:55]wgf2104@dyn-160-39-132-234:[myproject](master)$ 
+[21:02]wgf2104@dyn-160-39-132-234:[myproject](master)$ 
+[21:02]wgf2104@dyn-160-39-132-234:[myproject](master)$ ll
+total 8
+drwx------   6 wgf2104  staff  204 Feb 26 20:55 ./
+drwx------   3 wgf2104  staff  102 Feb 26 20:21 ../
+-rw-------   1 wgf2104  staff  252 Feb 26 20:21 manage.py
+drwx------  12 wgf2104  staff  408 Feb 26 21:02 myproject/
+drwx------   7 wgf2104  staff  238 Feb 26 21:00 sampletwitter/
+drwx------   3 wgf2104  staff  102 Feb 26 20:39 templates/
+[21:02]wgf2104@dyn-160-39-132-234:[myproject](master)$ pyt
+python            python2.5         python2.7         pythonw2.5
+python-config     python2.5-config  python2.7-config  pythonw2.6
+python2           python2.6         pythonw           pythonw2.7
+python2-config    python2.6-config  pythonw2          
+[21:02]wgf2104@dyn-160-39-132-234:[myproject](master)$ python m
+manage.py  myproject/ 
+[21:02]wgf2104@dyn-160-39-132-234:[myproject](master)$ python manage.py syncdb
+Creating tables ...
+Creating table django_admin_log
+Creating table auth_permission
+Creating table auth_group_permissions
+Creating table auth_group
+Creating table auth_user_groups
+Creating table auth_user_user_permissions
+Creating table auth_user
+Creating table django_content_type
+Creating table django_session
+Creating table sampletwitter_author
+Creating table sampletwitter_tweet
+
+You just installed Django's auth system, which means you don't have any superusers defined.
+Would you like to create one now? (yes/no): yes
+Username (leave blank to use 'wgf2104'):   
+Email address: wfalkwallace@gmail.com
+Password: 
+Password (again): 
+Error: Blank passwords aren't allowed.
+Password: 
+Password (again): 
+Superuser created successfully.
+Installing custom SQL ...
+Installing indexes ...
+Installed 0 object(s) from 0 fixture(s)
+[21:04]wgf2104@dyn-160-39-132-234:[myproject](master)$ 
+[21:04]wgf2104@dyn-160-39-132-234:[myproject](master)$ 
+[21:04]wgf2104@dyn-160-39-132-234:[myproject](master)$ python manage.py shell
+Python 2.7.6 (default, Jan 25 2014, 00:35:23) 
+[GCC 4.2.1 Compatible Apple LLVM 5.0 (clang-500.2.79)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+(InteractiveConsole)
+>>> from sampletwitter.models import Author, Tweet
+>>> a1 = Author.create("Will", "Falk-Wallace")
+>>> a1.save()
+>>> authors = Author.objects.all()
+>>> authors
+[<Author: Author object>]
+>>> authors1 = Author.objects.filter(first_name="Will")
+>>> authors1
+[<Author: Author object>]
+>>> authors2 = Author.objects.filter(first_name="Matt")
+>>> authors2
+[]
+>>> 
+>>> 
+>>> 
+KeyboardInterrupt
+>>> 
+KeyboardInterrupt
+>>> 
+KeyboardInterrupt
+>>> exit
+Use exit() or Ctrl-D (i.e. EOF) to exit
+>>> exit()
+[21:08]wgf2104@dyn-160-39-132-234:[myproject](master)$ python manage.py runserver
+Validating models...
+
+0 errors found
+February 27, 2014 - 02:08:18
+Django version 1.6.2, using settings 'myproject.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+[27/Feb/2014 02:08:20] "GET /random/ HTTP/1.1" 200 157
+[27/Feb/2014 02:08:22] "GET /admin/ HTTP/1.1" 200 1865
+[27/Feb/2014 02:09:24] "POST /admin/ HTTP/1.1" 302 0
+[27/Feb/2014 02:09:24] "GET /admin/ HTTP/1.1" 200 2721
+[27/Feb/2014 02:09:27] "GET /admin/auth/user/ HTTP/1.1" 200 6166
+[27/Feb/2014 02:09:27] "GET /admin/jsi18n/ HTTP/1.1" 200 2372
+[27/Feb/2014 02:09:36] "GET /admin/auth/user/add/ HTTP/1.1" 200 4601
+[27/Feb/2014 02:09:36] "GET /admin/jsi18n/ HTTP/1.1" 200 2372
+[27/Feb/2014 02:09:54] "POST /admin/auth/user/add/ HTTP/1.1" 302 0
+[27/Feb/2014 02:09:54] "GET /admin/auth/user/2/ HTTP/1.1" 200 13513
+[27/Feb/2014 02:09:54] "GET /admin/jsi18n/ HTTP/1.1" 200 2372
+[27/Feb/2014 02:10:12] "GET /admin/auth/user/ HTTP/1.1" 200 6461
+[27/Feb/2014 02:10:12] "GET /admin/jsi18n/ HTTP/1.1" 200 2372
+[27/Feb/2014 02:10:13] "GET /admin/auth/ HTTP/1.1" 200 2542
+[27/Feb/2014 02:10:14] "GET /admin/ HTTP/1.1" 200 3023
+Validating models...
+
+0 errors found
+February 27, 2014 - 02:10:48
+Django version 1.6.2, using settings 'myproject.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+[27/Feb/2014 02:12:37] "GET /admin/ HTTP/1.1" 200 4158
+[21:13]wgf2104@dyn-160-39-132-234:[myproject](master)$ python manage.py shell
+Python 2.7.6 (default, Jan 25 2014, 00:35:23) 
+[GCC 4.2.1 Compatible Apple LLVM 5.0 (clang-500.2.79)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+(InteractiveConsole)
+>>> from sampletwitter.models import Author, Tweet
+>>> a1 = Author.create('matt', 'piccola', 'mp@mp.com')
+Traceback (most recent call last):
+  File "<console>", line 1, in <module>
+TypeError: create() takes exactly 3 arguments (4 given)
+>>> a1 = Author.create('matt', 'piccola')
+>>> a1.save
+<bound method Author.save of <Author: Author object>>
+>>> a1.save()
+>>> exit()
+[21:15]wgf2104@dyn-160-39-132-234:[myproject](master)$ python manage.py syncdb
+Creating tables ...
+Installing custom SQL ...
+Installing indexes ...
+Installed 0 object(s) from 0 fixture(s)
+[21:15]wgf2104@dyn-160-39-132-234:[myproject](master)$ python manage.py runserver
+Validating models...
+
+0 errors found
+February 27, 2014 - 02:15:33
+Django version 1.6.2, using settings 'myproject.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+[27/Feb/2014 02:15:34] "GET /admin/ HTTP/1.1" 200 4158
+Validating models...
+
+0 errors found
+February 27, 2014 - 02:19:06
+Django version 1.6.2, using settings 'myproject.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+[27/Feb/2014 02:33:38] "GET /admin/ HTTP/1.1" 500 150577
+[27/Feb/2014 02:33:41] "GET /tweets/ HTTP/1.1" 404 2396
+Validating models...
+
+0 errors found
+February 27, 2014 - 02:34:00
+Django version 1.6.2, using settings 'myproject.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+[27/Feb/2014 02:34:30] "GET /tweets/ HTTP/1.1" 500 66228
+[27/Feb/2014 02:34:42] "GET /tweets/ HTTP/1.1" 500 87869
+[27/Feb/2014 02:35:53] "GET /admin/sampletweets/ HTTP/1.1" 404 1639
+[27/Feb/2014 02:36:22] "GET /admin/sampletweets/ HTTP/1.1" 404 1639
+[27/Feb/2014 02:36:36] "GET /admin/sampletwitter/tweets HTTP/1.1" 404 4515
+[27/Feb/2014 02:36:43] "GET /tweets HTTP/1.1" 500 103243
+[27/Feb/2014 02:37:28] "GET /tweets HTTP/1.1" 500 103243
+Validating models...
+
+0 errors found
+February 27, 2014 - 02:39:37
+Django version 1.6.2, using settings 'myproject.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+[27/Feb/2014 02:39:39] "GET /tweets HTTP/1.1" 301 0
+[27/Feb/2014 02:39:39] "GET /tweets/ HTTP/1.1" 500 55416
+[27/Feb/2014 02:39:44] "GET /tweets HTTP/1.1" 301 0
+[27/Feb/2014 02:39:44] "GET /tweets/ HTTP/1.1" 500 55416
+Validating models...
+
+0 errors found
+February 27, 2014 - 02:41:21
+Django version 1.6.2, using settings 'myproject.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+[27/Feb/2014 02:41:57] "GET /tweets/ HTTP/1.1" 500 55416
+[27/Feb/2014 02:42:01] "GET /tweets HTTP/1.1" 301 0
+[27/Feb/2014 02:42:01] "GET /tweets/ HTTP/1.1" 500 55416
+Validating models...
+
+0 errors found
+February 27, 2014 - 02:42:05
+Django version 1.6.2, using settings 'myproject.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+[27/Feb/2014 02:42:12] "GET /tweets/ HTTP/1.1" 500 55416
+[27/Feb/2014 02:42:15] "GET /tweets HTTP/1.1" 301 0
+[27/Feb/2014 02:42:15] "GET /tweets/ HTTP/1.1" 500 55416
+Validating models...
+
+0 errors found
+February 27, 2014 - 02:42:19
+Django version 1.6.2, using settings 'myproject.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+[27/Feb/2014 02:42:54] "GET /tweets/ HTTP/1.1" 500 55416
+Validating models...
+
+0 errors found
+February 27, 2014 - 02:44:01
+Django version 1.6.2, using settings 'myproject.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+[27/Feb/2014 02:44:04] "GET /tweets/ HTTP/1.1" 200 20
+Validating models...
+
+0 errors found
+February 27, 2014 - 02:44:55
+Django version 1.6.2, using settings 'myproject.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+[27/Feb/2014 02:45:20] "GET /tweets/ HTTP/1.1" 200 215
+Validating models...
+
+0 errors found
+February 27, 2014 - 02:46:15
+Django version 1.6.2, using settings 'myproject.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+[27/Feb/2014 02:46:21] "GET /tweets/ HTTP/1.1" 200 632
+[27/Feb/2014 02:49:07] "GET /tweets/?first_name=William&last_name=Falk-Wallace&tweet=TEST HTTP/1.1" 200 632
+[27/Feb/2014 02:49:10] "GET /tweets/?first_name=William&last_name=Falk-Wallace&tweet=TEST HTTP/1.1" 200 632
+[27/Feb/2014 02:49:13] "GET /tweets/?first_name=William&last_name=Falk-Wallace&tweet=TEST HTTP/1.1" 200 632
+Validating models...
+
+0 errors found
+February 27, 2014 - 02:49:49
+Django version 1.6.2, using settings 'myproject.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+[27/Feb/2014 02:54:09] "GET /admin HTTP/1.1" 301 0
+[27/Feb/2014 02:54:09] "GET /admin/ HTTP/1.1" 200 4158
+[27/Feb/2014 02:54:12] "GET /admin/sampletwitter/tweet/ HTTP/1.1" 200 3286
+[27/Feb/2014 02:54:12] "GET /admin/jsi18n/ HTTP/1.1" 200 2372
+Validating models...
+
+0 errors found
+February 27, 2014 - 02:54:24
+Django version 1.6.2, using settings 'myproject.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+^C[21:54]wgf2104@dyn-160-39-132-234:[myproject](master)$ 
+[21:54]wgf2104@dyn-160-39-132-234:[myproject](master)$ 
+[21:54]wgf2104@dyn-160-39-132-234:[myproject](master)$ 
+[21:54]wgf2104@dyn-160-39-132-234:[myproject](master)$ 
+[21:54]wgf2104@dyn-160-39-132-234:[myproject](master)$ python manage.py runserver
+Validating models...
+
+0 errors found
+February 27, 2014 - 02:54:37
+Django version 1.6.2, using settings 'myproject.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+[27/Feb/2014 02:54:53] "GET /tweets/ HTTP/1.1" 200 632
+[27/Feb/2014 02:55:04] "GET /tweets/?first_name=Matt&last_name=Piccolella&tweet=My+first+tweet HTTP/1.1" 200 632
+^C[21:56]wgf2104@dyn-160-39-132-234:[myproject](master)$ 
+[21:56]wgf2104@dyn-160-39-132-234:[myproject](master)$ 
+[21:56]wgf2104@dyn-160-39-132-234:[myproject](master)$ 
+[21:56]wgf2104@dyn-160-39-132-234:[myproject](master)$ 
+[21:56]wgf2104@dyn-160-39-132-234:[myproject](master)$ python manage.py runserver
+Validating models...
+
+0 errors found
+February 27, 2014 - 02:56:05
+Django version 1.6.2, using settings 'myproject.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+[27/Feb/2014 02:56:13] "GET /tweets/ HTTP/1.1" 200 631
+[27/Feb/2014 02:56:21] "POST /tweets/ HTTP/1.1" 200 697
+Validating models...
+
+0 errors found
+February 27, 2014 - 03:03:24
+Django version 1.6.2, using settings 'myproject.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+[22:33]wgf2104@dyn-160-39-132-234:[myproject](master)$ 
+[20:57]wgf2104@dyn-160-39-132-234:[myproject](master)$ 
+[20:57]wgf2104@dyn-160-39-132-234:[myproject](master)$ 

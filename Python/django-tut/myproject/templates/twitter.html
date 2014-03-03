@@ -1,0 +1,23 @@
+<html>
+<head>
+	<title>Tweets</title>
+</head>
+<body>
+	<h1>Send us a Tweet!</h1>
+	{% if form.errors %}
+	<p style="color: red;">Please fix the error(s) below {{ forms.errors | pluralize }}</p>
+	{% endif %}
+
+	<form action="/tweets/" method="post">
+		<table>
+			{{ form.as_table }}
+		</table>
+		<input type="submit" value="Submit">
+	</form>
+
+	{% for tweet in tweets %}
+	<h2>Tweet from {{ tweet.author.first_name }} {{ tweet.author.last_name }}</h2>
+	<h3>{{ tweet.tweet }}</h3>
+	{% endfor %}
+</body>
+</html>
