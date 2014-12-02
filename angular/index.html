@@ -4,10 +4,13 @@
     <link rel='stylesheet' href='bootstrap.css'>
   </head>
   <body>
+    <div ng-controller="StoreController as store">
+      <h1> {{store.product.name}} </h1>
+      <h2> ${{store.product.price}} </h2>
+      <p> {{store.product.description}} </p>
+    </div>
+
     <script src='angular.js'></script>
     <script src='app.js'></script>
-
-    <p>{{ 'hello' + ' you' }}</p>
-
   </body>
 </html>
