@@ -3,14 +3,15 @@
   <head>
     <link rel='stylesheet' href='bootstrap.css'>
   </head>
-  <body>
-    <div ng-controller="StoreController as store">
-      <h1> {{store.product.name}} </h1>
-      <h2> ${{store.product.price}} </h2>
-      <p> {{store.product.description}} </p>
-    </div>
-
+  <body ng-controller='StoreController as store'>
     <script src='angular.js'></script>
     <script src='app.js'></script>
+
+    <div ng-repeat='product in store.products'>
+      <h1> {{product.name}} </h1>
+      <h2> ${{product.price}} </h2>
+      <p> {{product.description}} </p>
+      <button ng-show='product.canPurchase'> Add to Cart </button>
+    </div>
   </body>
 </html>
