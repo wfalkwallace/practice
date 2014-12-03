@@ -6,12 +6,14 @@
   <body ng-controller='StoreController as store'>
     <script src='angular.js'></script>
     <script src='app.js'></script>
-
-    <div ng-repeat='product in store.products'>
-      <h1> {{product.name}} </h1>
-      <h2> ${{product.price}} </h2>
-      <p> {{product.description}} </p>
-      <button ng-show='product.canPurchase'> Add to Cart </button>
-    </div>
+    <ul class="list-group">
+      <li class='list-group-item' ng-repeat='product in store.products | orderBy:"-price"'>
+        <h3>
+          {{ product.name }}
+          <em class='pull-right'> {{ product.price | currency }} </em>
+          <img ng-src='{{ product.images[0].full }}'/>
+        </h3>
+      </li>
+    </ul>
   </body>
 </html>
