@@ -7,7 +7,7 @@
                     && elevator.goingUpIndicator())
         };
         var isFull = function(elevator) {
-            return elevator.loadFactor() === 1;
+            return elevator.loadFactor() > .6;
         };
         var elevator = function(floor, direction) {
             for (var i in elevators) {
